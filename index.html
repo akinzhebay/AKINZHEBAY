@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="banner"></div>
+  </header>
+  <nav>
+    <ul class="menu" id = "mymenu">
+      <a href="#about" class="active">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <img src="myimage.jpg" style="width:100px">
+      <p>Hello! My name is Kinzhebay Aiman and I am a fourth year biology student. This portfolio was made to show of my practical knowlege gained in the lab sessions.</p>      
+      <div id = "odd"></div>
+    </section>
+
+    <section id="portfolio">
+      <h2>My Portfolio</h2>
+<div class="portgal">
+      <div class="topimage">
+        <div class="myslides">
+          <img src="image1.jpg" style="width:50%">
+          <p>Celular <a href="glossary.html">apaptosis</a></p>
+        </div>
+      
+        <div class="myslides">
+          <img src="image2.jpg" style="width:50%">
+          <p><a href="glossary.html">Phluorescent</a> stained cancer cells</p>
+        </div>
+      
+        <div class="myslides">
+          <img src="image3.jpg" style="width:50%">
+          <p><a href="glossary.html">Phluorescent</a> stained cancer cells</p>
+        </div>
+          
+        <div class="myslides">
+          <img src="image4.jpg" style="width:50%">
+          <p>Cancerous cells under microscope</p>
+        </div>
+      
+        <div class="myslides">
+          <img src="image5.jpg" style="width:50%">
+          <p><a href="glossary.html">Stained</a> B.cereus </p>
+        </div>
+          
+        <div class="myslides">
+          <img src="image6.jpeg" style="width:50%">
+          <p>Different bacteria in <a href="glossary.html">selective media</a></p>
+        </div>
+          
+        <a class="back" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      
+          <div class="gallery">
+    <div class="exp">
+      <img src="image1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="exp">
+      <img src="image2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="exp">
+      <img src="image3.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="exp">
+      <img src="image4.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="exp">
+      <img src="image5.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>    
+    <div class="exp">
+      <img src="image6.jpeg" style="width:100%" onclick="currentSlide(6)">
+    </div>
+  </div>
+</div>
+    </section>
+    <section id="contact">
+      <h3>Contact Me</h3>
+      <p>My email: aiman.kinzhebay@nu.edu.kz</p>
+      <p>My github: akinzhebay</p>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Portfolio</p>
+  </footer>
+</body>
+</html>
